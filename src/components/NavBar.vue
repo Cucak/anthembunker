@@ -1,59 +1,76 @@
 <template>
-    <div id="top-section" class="myNav">
-        
-      <nav class="navbar navigation-clean-button">
-          <div class="container">
-          <a href="/" class="">
+<div id="top-section">
+    <div id="navbar">
+        <div id="content">
+      <nav class="navbar is-transparent">
+          <div class="navbar-brand">
+          <a href="/" class="navbar-item">
             <img
               src="../assets/mylogo.png"
               alt="Herc: Decentralized supply chain management software"
             >
           </a>
-          <div class="">
+          </div>
+          <div
+            class="navbar-burger burger"
+            data-target="navbarExampleTransparentExample"
+            @click="toggleMobileMenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        <div
+          id="navbarExampleTransparentExample"
+          class="navbar-menu"
+          :class="{'is-active':isMobileMenuOpen}"
+        >
+        <div class="navbar-end">
           <div class="dropdown">
-  <a class="dropbtn">Departments</a>
+  <a class="dropbtn navbar-item">Departments</a>
   <div class="dropdown-content">
-    <a href="https://www.anthemvault.com/">Anthem Vault</a>
-    <a href="https://www.amagimetals.com/">Amagi Metals</a>
-    <a href="https://www.anthemgold.com/">AnthemGold</a>
-    <a href="https://www.anthemgold.com/">Anthem Vault</a>
-    <a href="https://www.anthemgold.com/">AnthemNationalReserve</a>
+    <a href="https://www.anthemvault.com/" class="navbar-item">Anthem Vault</a>
+    <a href="https://www.amagimetals.com/" class="navbar-item">Amagi Metals</a>
+    <a href="https://www.anthemgold.com/" class="navbar-item">AnthemGold</a>
+    <a href="https://www.anthemgold.com/" class="navbar-item">Anthem Vault</a>
+    <a href="https://www.anthemgold.com/" class="navbar-item">AnthemNationalReserve</a>
   </div>
 </div>
-<span class="">
+        
+<span class="navbar-item">
     <a class="login" style="color:white; cursor: pointer;">
         <svg aria-hidden="true" data-prefix="fas" data-icon="lock" role="img" 
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 515" class="svg-inline-fa fa-lock fa-w-14 fa-sm">
         <path data-v-6a0c902d="" fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" class=""></path>
     </svg>
     LOGIN</a>
-    <a role="button" class="sgnUpBtn" style="border:1px solid rgb(249, 168, 37); border-radius: 3px;">
+    <a role="button" class="sgnUpBtn"  style="border:1px solid rgb(249, 168, 37); border-radius: 3px;">
         SIGN UP
     </a>
 </span>
-          </div>
-          </div>
+     </div>     
+        </div>
           </nav>
-          <h1 class="text-center" style="font-size: 3.25rem; color: rgb(255, 255, 255); padding-top: 80px;">
+          </div>     
+    </div>
+  <h1 class="text-center" style="font-size: 3.25rem; color: rgb(255, 255, 255); padding-top: 80px;">
 Anthem Bunker              
           </h1>
           <p class="text-center" style="color: rbg(255, 255, 255);padding-bottom: 20px;">
-            <em data-v-6a0c902d="">Safe&nbsp;and&nbsp;Secure&nbsp;Services&nbsp;</em>
-            <br data-v-6a0c902d="">
-            <em data-v-6a0c902d="">for your most valued possessions</em>
-            <br data-v-6a0c902d="">
+            <em>Safe&nbsp;and&nbsp;Secure&nbsp;Services&nbsp;</em>
+            <br>
+            <em>for your most valued possessions</em>
+            <br>
           </p>
           <div style="text-align: center;">
-              <button data-v-6a0c902d="" type="button" class="button is-info" style="border-radius: 8px;  padding: 15px 32px 32px; margin: 5%;"><a data-v-6a0c902d="" style="color: white; text-decoration: none;"><svg data-v-6a0c902d="" aria-hidden="true" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-lock fa-w-14 fa-sm"><path data-v-6a0c902d="" fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" class=""></path></svg>
+              <button type="button" class="button is-link" style="border-radius: 8px;  padding: 25px 32px 42px; margin: 5%;"><a data-v-6a0c902d="" style="color: white; text-decoration: none;"><svg data-v-6a0c902d="" aria-hidden="true" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-lock fa-w-14 fa-sm"><path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" class=""></path></svg>
           LOGIN
       </a></button>
-      <button data-v-6a0c902d="" type="button" class="button is-warning" style="border-radius: 8px; padding: 15px 32px 32px; margin: 5%; background-color: rgb(249, 168, 37); border-color: rgb(249, 168, 37);"><a data-v-6a0c902d="" style="color: white; text-decoration: none;"><svg data-v-6a0c902d="" aria-hidden="true" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-user-plus fa-w-20 fa-sm"><path data-v-6a0c902d="" fill="currentColor" d="M624 208h-64v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64h-64c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h64v64c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64h64c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm-400 48c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" class=""></path></svg>
+      <button type="button" class="button" style="border-radius: 8px; padding: 25px 32px 42px; margin: 5%; background-color: rgb(249, 168, 37); border-color: rgb(249, 168, 37);"><a style="color: white; text-decoration: none;"><svg aria-hidden="true" data-prefix="fas" data-icon="user-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-user-plus fa-w-20 fa-sm"><path fill="currentColor" d="M624 208h-64v-64c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v64h-64c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h64v64c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-64h64c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm-400 48c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" class=""></path></svg>
           REGISTER
       </a></button>
-      
           </div>
-        </div>
-   
+    </div>
 </template>
 
 <script>
@@ -64,16 +81,18 @@ export default {
 
 <style scoped>
 #top-section {
-    background: -webkit-gradient(linear,left bottom,left top,from(rgba(24,38,121,.4)),to(rgba(19,31,99,.8))),url('../assets/data-center.jpg');
+  background: -webkit-gradient(linear,left bottom,left top,from(rgba(24,38,121,.4)),to(rgba(19,31,99,.8))),url('../assets/data-center.jpg');
     height: 100%;
-}
-section {
-    display: block;
+    padding-top: 15px;
 }
 nav {
     background-color: transparent !important;
+   padding-left:20%;
+   padding-right: 20%;
+}
 
-    
+.navbar-item img {
+  max-height: 2.6rem;
 }
 img {
     width: 183px;
@@ -81,24 +100,16 @@ img {
     border-style: none;
     
 }
-.navbar .container {
+.navbar-start {
+  margin: auto;
+}
+a {
+  font-size: 16px;
+}
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.container {
-    width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.navigation-clean-button {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.navbar2 {
-    display: flex !important;
 }
 .dropbtn {
     
@@ -106,6 +117,7 @@ img {
     padding: 16px;
     font-size: 16px;
     border: none;
+    display: inline-flex;
 }
 .dropbtn::after {
     display: inline-block;
@@ -125,7 +137,7 @@ img {
 }
 
 .dropdown-content {
-    margin-top: 15px;
+    
     display: none;
     position: absolute;
     background-color: #fafafa;
@@ -150,20 +162,26 @@ img {
 .login {
     margin-right: 1rem;
     text-decoration: none;
+    display: inline-block;
 }
 svg {
     width: 10px;
     height: 10px;
 }
 .sgnUpBtn {
-    background-color: #56c6c6;
     color: #f9a825;
     box-shadow: none;
     text-shadow: none;
     padding: .5rem 1rem;
     transition: background-color .25s;
     font-size: inherit;
-    background-color: rgba(86, 198, 198, 0)
+    background-color: rgba(86, 198, 198, 0);
+    display: inline;
+    margin: auto;
+}
+.sgnUpBtn:hover {
+    background-color:#f9a825;
+    color:#fafafa;
 }
 .text-center {
 text-align: center !important;
@@ -178,7 +196,9 @@ p.text-center {
     line-height: 1.2;
     display: block;
 }
-
+.warnBtn:hover {
+    background-color: darkorange;
+}
 </style>
 
 

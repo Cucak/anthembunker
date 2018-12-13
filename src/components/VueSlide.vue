@@ -4,7 +4,7 @@
 <carousel
             class="carousel"
             autoplay
-            :per-page="3"
+            :per-page="4"
             :pagination-enabled="false"
             :scroll-per-page="false"
             :loop="true">

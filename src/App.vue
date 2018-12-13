@@ -6,6 +6,8 @@
      <span id="small-labelcarousel">As featured in...</span>
    </div>
   <VueSlide></VueSlide>
+  <FamilyBrand></FamilyBrand>
+  <LiveCam></LiveCam>
   </div>
 </template>
 
@@ -13,13 +15,17 @@
 import Test from './components/Test'
 import NavBar from './components/NavBar'
 import VueSlide from './components/VueSlide'
+import FamilyBrand from './components/FamilyBrand'
+import LiveCam from './components/LiveCam'
 
 export default {
   name: 'app',
   components: {
   Test,
   NavBar,
-  VueSlide
+  VueSlide,
+  FamilyBrand,
+  LiveCam
   }
 }
 </script>
@@ -30,13 +36,14 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
-  
+  background-color: #fafafa;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1,5;
   color: #212529;
   text-align: left;
+  margin-bottom: 50px;
 }
 
 // set your colors
