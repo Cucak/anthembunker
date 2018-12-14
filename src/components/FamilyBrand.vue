@@ -9,7 +9,8 @@
    <img src="../assets/anthemvault.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
 <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
- <a class="button is-link">Visit AnthemVault</a>
+ <a class="button is-link" href="https://www.anthemvault.com/" target="_blank">Visit AnthemVault</a>
+
   </div>
   <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/amagimetals.gif" style="width: 50%; margin: auto;">

@@ -43,7 +43,7 @@ body {
   line-height: 1,5;
   color: #212529;
   text-align: left;
-  margin-bottom: 50px;
+  
 }
 
 // set your colors

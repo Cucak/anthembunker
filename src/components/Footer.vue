@@ -68,6 +68,13 @@
            </div>
        </div>
        </div>
+       <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+     © 2018 Anthem Vault Inc. All rights reserved.
+    </p>
+  </div>
+</footer>
     </div>
 </template>
 
@@ -83,7 +90,9 @@ export default {
 }
 #footer {
         background-color: rgb(26, 35, 126);
-        padding: 50px;
+        padding-top: 50px;
+       
+        text-align: center;
 }
 h3 {
     color: white;
@@ -91,10 +100,15 @@ h3 {
 ul li a {
     color: gray;
 }
+ul li a:hover {
+    color: white;
+}
 .social-items {
     
     text-align: center;
     width: 500px;
+    padding-bottom: 100px;
+    
 }
 
 svg {
@@ -108,7 +122,51 @@ svg {
     color: gray;
     opacity: .75;
 }
+footer{
+background-color: rgb(20, 29, 103);
+height: 10px;
+padding: 40px;
+color: white;
+}
 
+/* modal styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 </style>
 
 
