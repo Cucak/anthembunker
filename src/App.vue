@@ -7,7 +7,7 @@
    </div>
   <VueSlide></VueSlide>
   <FamilyBrand></FamilyBrand>
-  <LiveCam></LiveCam>
+  <Footer></Footer>
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import Test from './components/Test'
 import NavBar from './components/NavBar'
 import VueSlide from './components/VueSlide'
 import FamilyBrand from './components/FamilyBrand'
-import LiveCam from './components/LiveCam'
+import Footer from './components/Footer'
 
 export default {
   name: 'app',
@@ -25,7 +25,7 @@ export default {
   NavBar,
   VueSlide,
   FamilyBrand,
-  LiveCam
+  Footer
   }
 }
 </script>

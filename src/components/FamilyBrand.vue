@@ -74,6 +74,18 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+    color: #1A237E;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .text-center {
     text-align: center;
 }
