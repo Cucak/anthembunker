@@ -17,7 +17,7 @@
 
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Amagi Metals</h4>
 <p>Amagi Metals is a gobal bullion dealer that serves the world with quality precious metals.</p>
- <a class="button is-link">Visit Amagi Metals</a>
+ <a role="button" href="https://www.amagimetals.com/" target="_blank" class="button is-link">Visit Amagi Metals</a>
   </div>
   <div class="column">
    
@@ -32,13 +32,13 @@
    <img src="../assets/anthemgold.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Gold</h4>
 <p>Anthem Gold is a global gold dealer that serves the world with quality gold bars that can be obtained with crypto currencies.</p>
- <a class="button is-link">Visit Anthem Gold</a>
+ <a role="button" href="https://www.anthemgold.com/" target="_blank" class="button is-link">Visit Anthem Gold</a>
   </div>
   <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/anthemprofessional.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault Pro</h4>
 <p>Anthem Vault Professional allows investment advisor portfolios to shine with physical Gold & Silver bullion ownership</p>
- <a class="button is-link">Visit AnthemVault Pro</a>
+ <a role="button" href="http://www.anthemvaultprofessional.com/" target="_blank" class="button is-link">Visit AnthemVault Pro</a>
   </div>
   <div class="column">
    
@@ -53,13 +53,13 @@
    <img src="../assets/anthemnational.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem National Reserve</h4>
 <p>Expert consultation services in the acquisition of bullion precious metals and rare coin investments.</p>
- <a class="button is-link">Visit ANR</a>
+ <a role="button" href="http://www.anthemnationalreserve.com/" target="_blank" class="button is-link">Visit ANR</a>
   </div>
   <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/anthembunker.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Bunker</h4>
 <p>AV Bunker provides safe, secure services for your most valued possessions.</p>
- <a class="button is-warning" style="background-color: rgb(249, 168, 37);color:white;">Register</a>
+ <a role="button" href="https://anthembunker.com/register" target="_blank" class="button is-warning" style="background-color: rgb(249, 168, 37); color: white; border: none;"><i class="fa fa-user-plus"></i> Register</a>
   </div>
   <div class="column">
    
