@@ -2,7 +2,7 @@
   <div id="app">
      <NavBar></NavBar>
    <test></test>
-   <div id="small-header-carousel" style="font-style: italic; color: #a2a6af; text-align: center;">
+   <div id="small-header-carousel" style="font-style: italic; color: #a2a6af; text-align: center; width: 100%;">
      <span id="small-labelcarousel">As featured in...</span>
    </div>
   <VueSlide></VueSlide>

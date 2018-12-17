@@ -75,8 +75,24 @@ Anthem Bunker
 
 <script>
 export default {
-    name: 'NavBar'
-}
+    name: 'NavBar',
+    methods: {
+        toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen;
+    },
+    closeMobileMenu() {
+      if (this.isMobileMenuOpen) {
+        this.toggleMobileMenu();
+      }
+    }
+  },
+  data() {
+    return {
+      isMobileMenuOpen: false
+    };
+  }
+    };
+
 </script>
 
 <style scoped>
@@ -198,6 +214,36 @@ p.text-center {
 }
 .warnBtn:hover {
     background-color: darkorange;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    
+.navbar-burger {
+    margin-left: -3.25rem;
+    cursor: pointer;
+    
+    height: 3.25rem;
+    position: relative;
+    
+    margin: 20px auto;
+   
+}
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
 
