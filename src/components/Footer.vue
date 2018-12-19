@@ -106,7 +106,6 @@ ul li a:hover {
 .social-items {
     
     text-align: center;
-    width: 500px;
     padding-bottom: 100px;
     
 }

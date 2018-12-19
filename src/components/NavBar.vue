@@ -1,44 +1,35 @@
 <template>
 <div id="top-section">
-    <div id="navbar">
-        <div id="content">
-      <nav class="navbar is-transparent">
-          <div class="navbar-brand">
-          <a href="/" class="navbar-item">
-            <img
-              src="../assets/mylogo.png"
-              alt="Herc: Decentralized supply chain management software"
-            >
-          </a>
-          </div>
-          <div
-            class="navbar-burger burger"
-            data-target="navbarExampleTransparentExample"
-            @click="toggleMobileMenu"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        <div
-          id="navbarExampleTransparentExample"
-          class="navbar-menu"
-          :class="{'is-active':isMobileMenuOpen}"
-        >
-        <div class="navbar-end">
-          <div class="dropdown">
-  <a class="dropbtn navbar-item">Departments</a>
-  <div class="dropdown-content">
-    <a href="https://www.anthemvault.com/" class="navbar-item">Anthem Vault</a>
-    <a href="https://www.amagimetals.com/" class="navbar-item">Amagi Metals</a>
-    <a href="https://www.anthemgold.com/" class="navbar-item">AnthemGold</a>
-    <a href="https://www.anthemgold.com/" class="navbar-item">Anthem Vault</a>
-    <a href="https://www.anthemgold.com/" class="navbar-item">AnthemNationalReserve</a>
+    <div id="content">
+
+          <!-- drugi nav -->
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">
+      <img src="../assets/mylogo.png" width="112" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
   </div>
-</div>
-        
-<span class="navbar-item">
-    <a class="login" style="color:white; cursor: pointer;">
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+        <b-dropdown hoverable>
+            <button class="dropbtn" slot="trigger">
+                <span>Departments</span>
+            </button>
+            <b-dropdown-item><a href="https://www.anthemvault.com/" class="reversed">Anthem Vault</a></b-dropdown-item>
+            <b-dropdown-item><a href="https://www.amagimetals.com/" class="reversed">Amagi Metals</a></b-dropdown-item>
+            <b-dropdown-item><a href="https://www.anthemgold.com/" class="reversed">AnthemGold</a></b-dropdown-item>
+            <b-dropdown-item><a href="https://www.anthemgold.com/" class="reversed">Anthem Vault</a></b-dropdown-item>
+            <b-dropdown-item><a href="https://www.anthemgold.com/" class="reversed">AnthemNationalReserve</a></b-dropdown-item>
+        </b-dropdown>
+      <div class="navbar-item">
+      <a class="login" style="color:white; cursor: pointer;">
         <svg aria-hidden="true" data-prefix="fas" data-icon="lock" role="img" 
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 515" class="svg-inline-fa fa-lock fa-w-14 fa-sm">
         <path data-v-6a0c902d="" fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" class=""></path>
@@ -47,12 +38,11 @@
     <a role="button" class="sgnUpBtn"  style="border:1px solid rgb(249, 168, 37); border-radius: 3px;">
         SIGN UP
     </a>
-</span>
-     </div>     
-        </div>
-          </nav>
-          </div>     
+      </div>
     </div>
+  </div>
+</nav>
+
   <h1 class="text-center" style="font-size: 3.25rem; color: rgb(255, 255, 255); padding-top: 80px;">
 Anthem Bunker              
           </h1>
@@ -70,6 +60,7 @@ Anthem Bunker
           REGISTER
       </a></button>
           </div>
+           </div>
     </div>
 </template>
 
@@ -98,8 +89,11 @@ export default {
 <style scoped>
 #top-section {
   background: -webkit-gradient(linear,left bottom,left top,from(rgba(24,38,121,.4)),to(rgba(19,31,99,.8))),url('../assets/data-center.jpg');
-    height: 100%;
-    padding-top: 15px;
+    padding: 50px;
+}
+#content {
+    max-width: 1080px;
+    margin: auto;
 }
 nav {
     background-color: transparent !important;
@@ -132,8 +126,13 @@ a {
     color: white;
     padding: 16px;
     font-size: 16px;
+    
+     background-color: Transparent;
+    background-repeat:no-repeat;
     border: none;
-    display: inline-flex;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 .dropbtn::after {
     display: inline-block;
@@ -230,7 +229,10 @@ p.text-center {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    
+    #top-sect-section {
+        width: 100%;
+        display: block;
+    }
 .navbar-burger {
     margin-left: -3.25rem;
     cursor: pointer;

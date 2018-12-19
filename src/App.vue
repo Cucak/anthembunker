@@ -33,6 +33,7 @@ export default {
 <style lang="scss">
 // Import Bulma's core
 @import './../node_modules/bulma/css/bulma.css';
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
