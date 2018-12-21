@@ -179,6 +179,9 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+.button.is-link {
+    background-color: #3273dc !important;
+}
 svg {
     width: 10px;
     height: 10px;

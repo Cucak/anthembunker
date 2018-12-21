@@ -1,6 +1,10 @@
 <template>
 <div id="slider-section">
-    <div id="content">
+    <div id="content" style="">
+     <div id="small-header-carousel" 
+     style="font-style: italic; color: #a2a6af; text-align: center; font-size: 20px; padding-bottom: 10px; width: 100%;">
+     <span id="small-labelcarousel">As featured in...</span>
+</div>
 <carousel
             class="carousel"
             autoplay
@@ -155,8 +159,29 @@ export default {
   padding-bottom: 5%;
 }
 .imgSize {
-  width: 60%;
+  width: 70%;
   margin: auto;
+}
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+   .imgSize {
+     width: 100%;
+   }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
 

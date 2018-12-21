@@ -5,7 +5,7 @@
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-right: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10%; height:300px; margin-bottom: 2%; margin-top:5%; box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemvault.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
 <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
@@ -105,6 +105,29 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.button.is-link {
+    background-color: #3273dc !important;
+}
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+   
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
 
