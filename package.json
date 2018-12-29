@@ -11,8 +11,8 @@
     "buefy": "^0.7.1",
     "bulma": "^0.7.2",
     "hls.js": "^0.11.0",
-    "vue": "^2.5.17",
-    "vue-carousel": "^0.16.1",
+    "vue": "^2.5.21",
+    "vue-carousel": "^0.16.2",
     "vue-infinite-slide-bar": "^1.0.8"
   },
   "devDependencies": {
@@ -20,11 +20,11 @@
     "@vue/cli-plugin-eslint": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
+    "eslint": "^5.11.1",
     "eslint-plugin-vue": "^5.0.0-0",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
     "root": true,
