@@ -1,18 +1,19 @@
 <template>
     <div id="family-brand">
+        <div id="content">
         <h1 class="text-center">AnthemVault Family Brands</h1>
     <div class="columns">
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10%; height:300px; margin-bottom: 2%; margin-top:5%; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemvault.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
 <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
  <a class="button is-link" href="https://www.anthemvault.com/" target="_blank">Visit AnthemVault</a>
 
   </div>
-  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/amagimetals.gif" style="width: 50%; margin: auto;">
 
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Amagi Metals</h4>
@@ -28,13 +29,13 @@
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-right: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemgold.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Gold</h4>
 <p>Anthem Gold is a global gold dealer that serves the world with quality gold bars that can be obtained with crypto currencies.</p>
  <a role="button" href="https://www.anthemgold.com/" target="_blank" class="button is-link">Visit Anthem Gold</a>
   </div>
-  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/anthemprofessional.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault Pro</h4>
 <p>Anthem Vault Professional allows investment advisor portfolios to shine with physical Gold & Silver bullion ownership</p>
@@ -66,6 +67,7 @@
   </div>
 </div>
     </div>
+    </div>
 </template>
 
 <script>
@@ -75,6 +77,7 @@ export default {
 </script>
 
 <style scoped>
+
 h1 {
     color: #1A237E;
     font-size: 2.5rem;
@@ -124,7 +127,9 @@ p {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-   
+   .columns {
+      height: 800px;
+   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
