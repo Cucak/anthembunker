@@ -6,19 +6,19 @@
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;">
+  <div id="family-box" class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemvault.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
 <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
- <a class="button is-link" href="https://www.anthemvault.com/" target="_blank">Visit AnthemVault</a>
+ <a role="button" href="https://www.anthemvault.com/" target="_blank"  class="button is-info">Visit AnthemVault</a>
 
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/amagimetals.gif" style="width: 50%; margin: auto;">
 
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Amagi Metals</h4>
 <p>Amagi Metals is a gobal bullion dealer that serves the world with quality precious metals.</p>
- <a role="button" href="https://www.amagimetals.com/" target="_blank" class="button is-link">Visit Amagi Metals</a>
+ <a role="button" href="https://www.amagimetals.com/" target="_blank"  class="button is-info">Visit Amagi Metals</a>
   </div>
   <div class="column">
    
@@ -29,17 +29,17 @@
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemgold.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Gold</h4>
 <p>Anthem Gold is a global gold dealer that serves the world with quality gold bars that can be obtained with crypto currencies.</p>
- <a role="button" href="https://www.anthemgold.com/" target="_blank" class="button is-link">Visit Anthem Gold</a>
+ <a role="button" href="https://www.anthemgold.com/" target="_blank"  class="button is-info">Visit Anthem Gold</a>
   </div>
-  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/anthemprofessional.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault Pro</h4>
 <p>Anthem Vault Professional allows investment advisor portfolios to shine with physical Gold & Silver bullion ownership</p>
- <a role="button" href="http://www.anthemvaultprofessional.com/" target="_blank" class="button is-link">Visit AnthemVault Pro</a>
+ <a role="button" href="http://www.anthemvaultprofessional.com/" target="_blank"  class="button is-info">Visit AnthemVault Pro</a>
   </div>
   <div class="column">
    
@@ -50,13 +50,13 @@
   <div class="column">
     
   </div>
-  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-right: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%; box-shadow: 0 5px 20px -10px #000;">
    <img src="../assets/anthemnational.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem National Reserve</h4>
 <p>Expert consultation services in the acquisition of bullion precious metals and rare coin investments.</p>
- <a role="button" href="http://www.anthemnationalreserve.com/" target="_blank" class="button is-link">Visit ANR</a>
+ <a role="button is-info" href="http://www.anthemnationalreserve.com/" target="_blank" class="button is-info">Visit ANR</a>
   </div>
-  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:300px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
+  <div class="column text-center" style="background-color: white;; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; height:320px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;">
     <img src="../assets/anthembunker.png" style="width: 50%; margin: auto;">
 <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Bunker</h4>
 <p>AV Bunker provides safe, secure services for your most valued possessions.</p>
@@ -77,7 +77,14 @@ export default {
 </script>
 
 <style scoped>
-
+#family-brand {
+    padding: 50px;
+}
+.column {
+    padding-top: 30px !important;
+    margin: 20px;
+    border-radius: 5px;
+}
 h1 {
     color: #1A237E;
     font-size: 2.5rem;
@@ -110,8 +117,13 @@ p {
     margin-inline-end: 0px;
 }
 
-.button.is-link {
-    background-color: #3273dc !important;
+
+.button.is-info:hover  {
+border-radius: 5px !important;
+}
+.button.is-warning:hover  {
+border-radius: 5px;
+background-color: #FF8C00 !important;
 }
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
@@ -127,9 +139,7 @@ p {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-   .columns {
-      height: 800px;
-   }
+  
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
