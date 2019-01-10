@@ -5,7 +5,7 @@
       <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
-            <img src="../assets/mylogo.png" width="112" height="28">
+            <img src="../../assets/mylogo.png" width="112" height="28">
           </a>
           <div
             class="navbar-burger burger"
@@ -169,7 +169,7 @@ export default {
       from(rgba(24, 38, 121, 0.4)),
       to(rgba(19, 31, 99, 0.8))
     ),
-    url("../assets/data-center.jpg");
+    url("../../assets/data-center.jpg");
   padding: 50px;
 }
 #content {
