@@ -162,6 +162,7 @@ export default {
   width: 70%;
   margin: auto;
 }
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -179,6 +180,29 @@ export default {
    .imgSize {
      width: 100%;
    }
+}
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  #slider-section {
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+  .imgSize {
+    width: 160px;
+    height: 58px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
