@@ -1,31 +1,12 @@
 <template>
   <div id="app">
-     <NavBar></NavBar>
-   <test></test>
-  <VueSlide></VueSlide>
-  <FamilyBrand></FamilyBrand>
-  <Footer></Footer>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import Test from './components/Test'
-import NavBar from './components/NavBar'
-import VueSlide from './components/VueSlide'
-import FamilyBrand from './components/FamilyBrand'
-import Footer from './components/Footer'
-
-export default {
-  name: 'app',
-  components: {
-  Test,
-  NavBar,
-  VueSlide,
-  FamilyBrand,
-  Footer
-  }
-}
-</script>
 
 <style lang="scss">
 // Import Bulma's core
