@@ -111,8 +111,8 @@ ul li a:hover {
 }
 
 svg {
-    font-size: 16px;
-    width: 20px;
+    font-size: 30px;
+    width: 15px;
     line-height: 50px;
     display: inline-block;
     text-align: center;
@@ -121,6 +121,15 @@ svg {
     color: gray;
     opacity: .75;
 }
+
+svg:hover {
+    width: 17px;
+}
+
+.fa-facebook-f {
+    width: 10px !important;
+}
+
 footer{
 background-color: rgb(20, 29, 103);
 height: 10px;
