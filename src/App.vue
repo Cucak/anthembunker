@@ -53,12 +53,14 @@ body {
     $font-family-monospace:  SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 
 .btn-to-top {
-  width: 60px;
-  height: 60px;
-  padding: 10px 16px;
-  border-radius: 50%;
-  font-size: 22px;
-  line-height: 22px;
+  width: 40px;
+  height: 40px;
+  border-color: gold;
+  background-color: transparent;
+  color: gold;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .btn-to-top:hover {

@@ -19,9 +19,7 @@
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu" :class="{'is-active':isMobileMenuOpen}">
-            <div class="navbar-start">
-
-            </div>
+          <div class="navbar-start"></div>
           <div class="navbar-end">
             <b-dropdown hoverable>
               <button class="dropbtn" slot="trigger">
@@ -172,10 +170,12 @@ export default {
     url("../../assets/data-center.jpg");
   padding: 50px;
 }
+
 #content {
   max-width: 1080px;
   margin: auto;
 }
+
 nav {
   background-color: transparent !important;
   padding-left: 5%;
@@ -185,22 +185,27 @@ nav {
 .navbar-item img {
   max-height: 2.6rem;
 }
+
 img {
   width: 183px;
   vertical-align: middle;
   border-style: none;
 }
+
 .navbar-start {
   margin: auto;
 }
+
 a {
   font-size: 16px;
 }
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .dropbtn {
   color: white;
   padding: 16px;
@@ -213,6 +218,7 @@ a {
   overflow: hidden;
   outline: none;
 }
+
 .dropbtn::after {
   display: inline-block;
   width: 0;
@@ -225,6 +231,7 @@ a {
   border-bottom: 0;
   border-left: 0.3em solid transparent;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -245,6 +252,7 @@ a {
   text-decoration: none;
   display: block;
 }
+
 .dropdown-content a:hover {
   background-color: #fafafa;
   color: #f9a825;
@@ -263,13 +271,16 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
 #orange:hover {
   background-color: #ff8c00 !important;
 }
+
 svg {
   width: 10px;
   height: 10px;
 }
+
 .sgnUpBtn {
   color: #f9a825;
   box-shadow: none;
@@ -281,16 +292,20 @@ svg {
   display: inline;
   margin: auto;
 }
+
 .sgnUpBtn:hover {
   background-color: #f9a825;
   color: #fafafa;
 }
+
 .text-center {
   text-align: center !important;
 }
+
 p.text-center {
   color: rgb(255, 255, 255);
 }
+
 .h1,
 .h2,
 .h3,
@@ -309,6 +324,7 @@ h6 {
   line-height: 1.2;
   display: block;
 }
+
 .warnBtn:hover {
   background-color: darkorange;
 }
@@ -327,18 +343,45 @@ h6 {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  #top-sect-section {
+  #top-section {
     width: 100%;
     display: block;
+    padding: 10px !important;
   }
+
   .navbar-burger {
-    margin-left: -3.25rem;
-    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 2px;
+    margin-left: 140px;
+  }
 
-    height: 3.25rem;
-    position: relative;
+  .navbar-burger span {
+    color: gold;
+    padding: 1px;
+  }
 
-    margin: 20px auto;
+  h1 {
+    width: 100%;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    background-color: transparent;
+    left: 10px;
+    top: 40px;
+  }
+
+  .dropbtn {
+    color: gold;
+  }
+
+  .sgnUpBtn {
+    color: gold !important;
+  }
+
+  .navbar-item a {
+    color: white;
   }
 }
 /*** Responsive Styles Large Desktop And Above ***/
@@ -355,7 +398,6 @@ h6 {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
