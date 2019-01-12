@@ -112,6 +112,7 @@ export default {
 #family-brand {
     padding: 50px;
 }
+
 #content {
     max-width: 1080px;
     margin: auto;
@@ -122,6 +123,7 @@ export default {
     margin: 40px;
     border-radius: 5px;
 }
+
 h1 {
     color: #1A237E;
     font-size: 2.5rem;
@@ -134,9 +136,11 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .text-center {
     text-align: center;
 }
+
 h4 {
     display: block;
     margin-block-start: 1.33em;
@@ -146,6 +150,7 @@ h4 {
     font-size: 1.5rem;
     font-weight: 500;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -163,6 +168,7 @@ a {
 .button.is-info:hover  {
 border-radius: 5px !important;
 }
+
 .button.is-warning:hover  {
 border-radius: 5px;
 background-color: #FF8C00 !important;
