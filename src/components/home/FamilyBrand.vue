@@ -5,7 +5,7 @@
       <div class="columns">
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/anthemvault.png" style="width: 50%; margin: auto;">
           <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
@@ -19,7 +19,7 @@
         </div>
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/amagimetals.gif" style="width: 50%; margin: auto;">
 
@@ -37,7 +37,7 @@
       <div class="columns">
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/anthemgold.png" style="width: 50%; margin: auto;">
           <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Gold</h4>
@@ -51,7 +51,7 @@
         </div>
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/anthemprofessional.png" style="width: 50%; margin: auto;">
           <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault Pro</h4>
@@ -68,7 +68,7 @@
       <div class="columns">
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px; margin-bottom: 2%; box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/anthemnational.png" style="width: 50%; margin: auto;">
           <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem National Reserve</h4>
@@ -82,7 +82,7 @@
         </div>
         <div
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 10px; padding-left: 100px; padding-right: 100px;  margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
+          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
           <img src="../../assets/anthembunker.png" style="width: 50%; margin: auto;">
           <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Bunker</h4>
@@ -110,68 +110,68 @@ export default {
 
 <style scoped>
 #family-brand {
-    padding: 50px;
+  padding: 50px;
 }
 
 #content {
-    max-width: 1080px;
-    margin: auto;
+  max-width: 1080px;
+  margin: auto;
 }
 
-.column {
-    padding-top: 30px !important;
-    margin: 40px;
-    border-radius: 5px;
-}
+/* .column {
+  padding-top: 30px !important;
+  margin: 40px;
+  border-radius: 5px;
+} */
 
 h1 {
-    color: #1A237E;
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  color: #1a237e;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 1.5rem;
-    font-weight: 500;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 a {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
-.button.is-info:hover  {
-border-radius: 5px !important;
+.button.is-info:hover {
+  border-radius: 5px !important;
 }
 
-.button.is-warning:hover  {
-border-radius: 5px;
-background-color: #FF8C00 !important;
+.button.is-warning:hover {
+  border-radius: 5px;
+  background-color: #ff8c00 !important;
 }
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
@@ -187,25 +187,23 @@ background-color: #FF8C00 !important;
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    h1 {
-        width: 100%;
-        font-size: 2.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-        
-    }
+  h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
 
   img {
-      width: 250px !important;
+    width: 250px !important;
   }
 
   .column {
-      margin: auto;
-      text-align: center !important;
-      padding: 10% !important;
-      margin-left: 0% !important;
+    margin: auto;
+    text-align: center !important;
+    padding: 10% !important;
+    margin-left: 0% !important;
   }
-
 
   h4 {
     display: block;
@@ -215,8 +213,8 @@ background-color: #FF8C00 !important;
     margin-inline-end: 0%;
     font-size: 0;
     font-weight: 500;
-}
   }
+}
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
 }
