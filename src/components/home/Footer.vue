@@ -156,6 +156,7 @@ export default {
 
 h3 {
   color: white;
+  padding-bottom: 10px;
 }
 
 ul li a {
