@@ -119,7 +119,7 @@ box-shadow: 0 5px 20px -10px #000;
 }
 
 #right-side {
-margin-left: 10px;
+margin-left: 30px;
 }
 
 h1 {

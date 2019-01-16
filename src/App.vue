@@ -66,6 +66,14 @@ body {
 .btn-to-top:hover {
   box-shadow: 0px 12px 18px -6px #000;
   background-color: gold;
-  color: white;
+  color: black;
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+.btn-to-top {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
 }
 </style>

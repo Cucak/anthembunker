@@ -327,7 +327,7 @@ h6 {
     border: 2px solid white;
     border-radius: 5px;
     margin: 2px;
-    margin-left: 140px;
+    margin-left: 100px;
   }
 
   .navbar-burger span {

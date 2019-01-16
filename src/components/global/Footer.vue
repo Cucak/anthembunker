@@ -99,7 +99,7 @@ export default {
 }
 
 h3 {
-  color: white;
+  color: lightgray;
   padding-bottom: 10px;
 }
 
