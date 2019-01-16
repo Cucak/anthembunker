@@ -59,11 +59,11 @@
 
         <div class="column">
           <h3 class="text-center">Social Media</h3>
-          <div id="font-asm">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-google-plus-g"></i>
+          <div>
+            <i class="fab fa-facebook-f fa-2x"></i>
+            <i class="fab fa-linkedin-in fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-google-plus-g fa-2x"></i>
           </div>
         </div>
       </div>
@@ -89,7 +89,6 @@ export default {
 
 #footer {
   background-color: rgb(26, 35, 126);
-
   text-align: center;
 }
 
@@ -112,42 +111,24 @@ ul li a:hover {
 }
 
 .columns {
-  padding: 40px;
+  padding: 30px;
 }
 
-.social-items {
-  text-align: center;
-  padding-bottom: 100px;
-}
-
-#font-asm i {
-  font-size: 30px;
-  width: 20px;
-  line-height: 50px;
-  display: inline-block;
-  text-align: center;
-  margin-left: 40px;
-  margin-top: 30px;
-  color: gray;
-  opacity: 0.75;
-}
-#font-asm i:hover {
+i {
   color: white;
-  font-size: 35px;
+  margin: 3%;
 }
 
-.fa-facebook-f {
-  width: 10px !important;
+i:hover {
+  color: orange;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 .footerEnd {
   background-color: rgb(20, 29, 103);
-  height: 10px;
-  padding: 40px;
+  padding: 10px;
   color: white;
 }
-
-
 </style>
 
 

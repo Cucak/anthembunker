@@ -1,11 +1,9 @@
 <template>
   <div id="family-brand">
     <div id="content">
-      <h1 class="text-center">AnthemVault Family Brands</h1>
+      <h1>AnthemVault Family Brands</h1>
       <div class="columns">
-        <div id="left-side"
-          class="column text-center"
-        >
+        <div class="column blurb">
           <img src="../../assets/anthemvault.png">
           <h4>AnthemVault</h4>
           <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
@@ -16,9 +14,7 @@
             class="button is-info"
           >Visit AnthemVault</a>
         </div>
-        <div id="right-side"
-          class="column text-center"
-        >
+        <div class="column blurb">
           <img src="../../assets/amagimetals.gif">
           <h4>Amagi Metals</h4>
           <p>Amagi Metals is a gobal bullion dealer that serves the world with quality precious metals.</p>
@@ -32,9 +28,7 @@
       </div>
 
       <div class="columns">
-        <div id="left-side"
-          class="column text-center"
-        >
+        <div class="column blurb">
           <img src="../../assets/anthemgold.png">
           <h4>Anthem Gold</h4>
           <p>Anthem Gold is a global gold dealer that serves the world with quality gold bars that can be obtained with crypto currencies.</p>
@@ -45,9 +39,7 @@
             class="button is-info"
           >Visit Anthem Gold</a>
         </div>
-        <div id="right-side"
-          class="column text-center"
-        >
+        <div id="right-side" class="column blurb">
           <img src="../../assets/anthemprofessional.png">
           <h4>AnthemVault Pro</h4>
           <p>Anthem Vault Professional allows investment advisor portfolios to shine with physical Gold & Silver bullion ownership</p>
@@ -61,9 +53,7 @@
       </div>
 
       <div class="columns">
-        <div id="left-side"
-          class="column text-center"
-        >
+        <div id="left-side" class="column blurb">
           <img src="../../assets/anthemnational.png">
           <h4>Anthem National Reserve</h4>
           <p>Expert consultation services in the acquisition of bullion precious metals and rare coin investments.</p>
@@ -74,9 +64,7 @@
             class="button is-info"
           >Visit ANR</a>
         </div>
-        <div id="right-side"
-          class="column text-center"
-        >
+        <div id="right-side" class="column blurb">
           <img src="../../assets/anthembunker.png">
           <h4>Anthem Bunker</h4>
           <p>AV Bunker provides safe, secure services for your most valued possessions.</p>
@@ -104,6 +92,7 @@ export default {
 <style scoped>
 #family-brand {
   padding: 50px;
+  text-align: center;
 }
 
 #content {
@@ -111,38 +100,15 @@ export default {
   margin: auto;
 }
 
-#left-side, #right-side {
-background-color: white; 
-padding: 20px; 
-margin-bottom: 5%; 
-box-shadow: 0 5px 20px -10px #000;
-}
-
-#right-side {
-margin-left: 30px;
-}
-
-h1 {
-  color: #1a237e;
-  font-size: 2.5rem;
-  padding-bottom: 30px;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-
-
-.text-center {
-  text-align: center;
+.blurb {
+  background-color: white;
+  padding: 50px;
+  margin: 2%;
+  box-shadow: 0 5px 20px -10px #000;
 }
 
 img {
-  width: 50%; 
+  width: 70%;
   margin: auto;
 }
 
@@ -157,18 +123,8 @@ h4 {
   color: rgb(51, 51, 51);
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 a {
-  margin-bottom: 5%;
+  margin: 5%;
 }
 
 .button.is-info:hover {
