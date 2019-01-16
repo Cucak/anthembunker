@@ -16,7 +16,7 @@
 import NavBar from "@/components/home/NavBar.vue";
 import VueSlide from "@/components/home/VueSlide.vue";
 import FamilyBrand from "@/components/home/FamilyBrand.vue";
-import Footer from "@/components/home/Footer.vue";
+import Footer from "@/components/global/Footer.vue";
 
 export default {
   name: "home",

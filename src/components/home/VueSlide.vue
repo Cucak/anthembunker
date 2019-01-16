@@ -3,7 +3,6 @@
     <div id="content" style>
       <div
         id="small-header-carousel"
-        style="font-style: italic; color: #a2a6af; text-align: center; font-size: 20px; padding-bottom: 10px; width: 100%;"
       >
         <span id="small-labelcarousel">As featured in...</span>
       </div>
@@ -159,6 +158,15 @@ export default {
 #content {
   max-width: 1080px;
   margin: auto;
+}
+
+#small-header-carousel {
+font-style: italic; 
+color: #a2a6af; 
+text-align: center; 
+font-size: 20px; 
+padding-bottom: 10px; 
+width: 100%;
 }
 
 .carousel {

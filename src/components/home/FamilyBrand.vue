@@ -3,12 +3,11 @@
     <div id="content">
       <h1 class="text-center">AnthemVault Family Brands</h1>
       <div class="columns">
-        <div
+        <div id="left-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-top:5%;  box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/anthemvault.png" style="width: 50%; margin: auto;">
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault</h4>
+          <img src="../../assets/anthemvault.png">
+          <h4>AnthemVault</h4>
           <p>Buy, store, sell and gift metals. Gold and Silver ownership made easy, secure and affordable</p>
           <a
             role="button"
@@ -17,13 +16,11 @@
             class="button is-info"
           >Visit AnthemVault</a>
         </div>
-        <div
+        <div id="right-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/amagimetals.gif" style="width: 50%; margin: auto;">
-
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Amagi Metals</h4>
+          <img src="../../assets/amagimetals.gif">
+          <h4>Amagi Metals</h4>
           <p>Amagi Metals is a gobal bullion dealer that serves the world with quality precious metals.</p>
           <a
             role="button"
@@ -35,12 +32,11 @@
       </div>
 
       <div class="columns">
-        <div
+        <div id="left-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%;  box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/anthemgold.png" style="width: 50%; margin: auto;">
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Gold</h4>
+          <img src="../../assets/anthemgold.png">
+          <h4>Anthem Gold</h4>
           <p>Anthem Gold is a global gold dealer that serves the world with quality gold bars that can be obtained with crypto currencies.</p>
           <a
             role="button"
@@ -49,12 +45,11 @@
             class="button is-info"
           >Visit Anthem Gold</a>
         </div>
-        <div
+        <div id="right-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/anthemprofessional.png" style="width: 50%; margin: auto;">
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">AnthemVault Pro</h4>
+          <img src="../../assets/anthemprofessional.png">
+          <h4>AnthemVault Pro</h4>
           <p>Anthem Vault Professional allows investment advisor portfolios to shine with physical Gold & Silver bullion ownership</p>
           <a
             role="button"
@@ -66,12 +61,11 @@
       </div>
 
       <div class="columns">
-        <div
+        <div id="left-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/anthemnational.png" style="width: 50%; margin: auto;">
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem National Reserve</h4>
+          <img src="../../assets/anthemnational.png">
+          <h4>Anthem National Reserve</h4>
           <p>Expert consultation services in the acquisition of bullion precious metals and rare coin investments.</p>
           <a
             role="button is-info"
@@ -80,12 +74,11 @@
             class="button is-info"
           >Visit ANR</a>
         </div>
-        <div
+        <div id="right-side"
           class="column text-center"
-          style="background-color: white; margin-top: 5%; padding: 20px; margin-bottom: 2%; margin-left: 10px; box-shadow: 0 5px 20px -10px #000;"
         >
-          <img src="../../assets/anthembunker.png" style="width: 50%; margin: auto;">
-          <h4 style="color: rgb(51, 51, 51); font-size: 1.5rem;">Anthem Bunker</h4>
+          <img src="../../assets/anthembunker.png">
+          <h4>Anthem Bunker</h4>
           <p>AV Bunker provides safe, secure services for your most valued possessions.</p>
           <a
             role="button"
@@ -118,16 +111,21 @@ export default {
   margin: auto;
 }
 
-/* .column {
-  padding-top: 30px !important;
-  margin: 40px;
-  border-radius: 5px;
-} */
+#left-side, #right-side {
+background-color: white; 
+padding: 20px; 
+margin-bottom: 5%; 
+box-shadow: 0 5px 20px -10px #000;
+}
+
+#right-side {
+margin-left: 10px;
+}
 
 h1 {
   color: #1a237e;
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  padding-bottom: 30px;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
@@ -137,8 +135,15 @@ h1 {
   margin-inline-end: 0px;
 }
 
+
+
 .text-center {
   text-align: center;
+}
+
+img {
+  width: 50%; 
+  margin: auto;
 }
 
 h4 {
@@ -149,6 +154,7 @@ h4 {
   margin-inline-end: 0px;
   font-size: 1.5rem;
   font-weight: 500;
+  color: rgb(51, 51, 51);
 }
 
 p {
