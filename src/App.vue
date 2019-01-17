@@ -10,16 +10,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-body {
-  background-color: #fafafa;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1,5;
-  color: #212529;
-  text-align: left;
-  
-}
 
 // set your colors
     $blue: #007bff;
@@ -67,6 +57,42 @@ body {
   box-shadow: 0px 12px 18px -6px #000;
   background-color: gold;
   color: black;
+}
+
+#app {
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 16px !important;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 28px !important;
+}
+
+h4 {
+  font-size: 24px !important;
+}
+
+h5 {
+  font-size: 20px !important;
+}
+
+h6 {
+  font-size: 16px !important;
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
