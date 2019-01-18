@@ -1,6 +1,19 @@
 $bunker-blue: #167df0;
-$bunker-gold: (249, 168, 37);
+$bunker-gold: #f9a825;
+$bunker-gray: #a2a6af;
+$herc-shadow: 0px 12px 18px -6px #000;
+$bunker-shadow: 0px 5px 20px -10px #000;
 @mixin bunker-shadow {
     box-shadow: 0 5px 20px -10px #000;
 }
+@mixin bunker-button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+@mixin bunker-buttohover {}
  

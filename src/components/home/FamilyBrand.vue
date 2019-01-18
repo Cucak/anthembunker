@@ -100,6 +100,10 @@ export default {
   margin: auto;
 }
 
+h1 {
+  
+}
+
 .blurb {
   background-color: white;
   padding: 50px;

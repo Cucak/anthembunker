@@ -46,43 +46,28 @@
                 <i class="fas fa-lock"></i>
                 LOGIN
               </a>
-              <a
-                role="button"
-                class="sgnUpBtn"
-              >SIGN UP</a>
+              <button class="button sgnUpBtn" @click="sngUp" >SIGN UP</button>
             </div>
           </div>
         </div>
       </nav>
 
-      <h1
-        class="text-center"
-      >Anthem Bunker</h1>
-      <p class="text-center">
+      <h1>Anthem Bunker</h1>
+      <p>
         <em>Safe&nbsp;and&nbsp;Secure&nbsp;Services&nbsp;</em>
         <br>
         <em>for your most valued possessions</em>
         <br>
       </p>
-      <div style="text-align: center;">
-        <button
-          type="button"
-          class="button is-info"
-        >
-          <a href="#">
-            <i class="fas fa-lock"></i>
-            LOGIN
-          </a>
+      <div>
+        <button type="button" class="button login-btn" @click="goToLogin">
+          <i class="fas fa-lock"></i>
+          LOGIN
         </button>
-        <button
-          id="orange"
-          type="button"
-          class="button"
-          >
-          <a class="reg-title" href="#">
+        <button  type="button" class="button register-btn"
+        @click="goToRegister">
             <i class="fas fa-user-plus"></i>
             REGISTER
-          </a>
         </button>
       </div>
     </div>
@@ -100,6 +85,15 @@ export default {
       if (this.isMobileMenuOpen) {
         this.toggleMobileMenu();
       }
+    },
+    goToLogin() {
+      window.location.href = "#";
+    },
+     goToRegister() {
+      window.location.href = "#";
+    },
+    sgnUp () {
+      window.location.href = "#";
     }
   },
   data() {
@@ -110,7 +104,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #top-section {
   background: -webkit-gradient(
       linear,
@@ -158,7 +152,6 @@ a {
   color: white;
   padding: 16px;
   font-size: 16px;
-
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -222,12 +215,14 @@ a {
   cursor: pointer;
 }
 
+
 #orange {
-  border-radius: 8px; 
-  padding: 25px 32px 42px; 
-  margin: 5%; 
-  background-color: rgb(249, 168, 37); 
+  border-radius: 8px;
+  padding: 25px 32px 42px;
+  margin: 5%;
+  background-color: rgb(249, 168, 37);
   border-color: rgb(249, 168, 37);
+  color: white;
 }
 
 #orange:hover {
@@ -235,7 +230,7 @@ a {
 }
 
 .reg-title {
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 
@@ -243,13 +238,13 @@ a {
   color: #f9a825;
   box-shadow: none;
   text-shadow: none;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   transition: background-color 0.25s;
   font-size: inherit;
   background-color: rgba(86, 198, 198, 0);
   display: inline;
   margin: auto;
-  border:1px solid rgb(249, 168, 37); 
+  border: 1px solid rgb(249, 168, 37);
   border-radius: 3px;
 }
 
@@ -258,20 +253,18 @@ a {
   color: #fafafa;
 }
 
-.text-center {
-  text-align: center !important;
-}
-
 h1 {
-  font-size: 3.25rem; 
-  color: rgb(255, 255, 255); 
+  font-size: 3.25rem;
+  color: rgb(255, 255, 255);
   padding-top: 80px;
+  text-align: center
 }
 
-p.text-center {
+p {
   color: rgb(255, 255, 255);
   color: rbg(255, 255, 255);
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .h1,
@@ -294,13 +287,13 @@ h6 {
 }
 
 .is-info {
-  border-radius: 8px;  
-  padding: 25px 32px 42px; 
+  border-radius: 8px;
+  padding: 25px 32px 42px;
   margin: 5%;
 }
 
 .is-info a {
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 /*** Responsive Styles Large Desktop And Above ***/
