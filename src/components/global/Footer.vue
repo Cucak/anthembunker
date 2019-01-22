@@ -58,7 +58,7 @@
         </div>
 
         <div class="column">
-          <h3 class="text-center">Social Media</h3>
+          <h3>Social Media</h3>
           <div>
             <i class="fab fa-facebook-f fa-2x"></i>
             <i class="fab fa-linkedin-in fa-2x"></i>
@@ -82,11 +82,7 @@ export default {
 };
 </script>
 
-<style scoped>
-.text-center {
-  text-align: center;
-}
-
+<style scoped lang="scss">
 #footer {
   background-color: rgb(26, 35, 126);
   text-align: center;
@@ -98,7 +94,7 @@ export default {
 }
 
 h3 {
-  color: lightgray;
+  color: $bunker-gray;
   padding-bottom: 10px;
 }
 

@@ -162,7 +162,7 @@ export default {
 
 #small-header-carousel {
 font-style: italic; 
-color: #a2a6af; 
+color: $bunker-gray; 
 text-align: center; 
 font-size: 20px; 
 padding-bottom: 10px; 

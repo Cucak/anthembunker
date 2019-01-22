@@ -89,7 +89,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #family-brand {
   padding: 50px;
   text-align: center;
@@ -101,7 +101,7 @@ export default {
 }
 
 h1 {
-  
+  color: $bunker-blue;
 }
 
 .blurb {
@@ -124,11 +124,12 @@ h4 {
   margin-inline-end: 0px;
   font-size: 1.5rem;
   font-weight: 500;
-  color: rgb(51, 51, 51);
+  color: $bunker-gray;
 }
 
 a {
   margin: 5%;
+  box-shadow: $bunker-shadow;
 }
 
 .button.is-info:hover {

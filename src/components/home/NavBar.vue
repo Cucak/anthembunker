@@ -92,7 +92,7 @@ export default {
      goToRegister() {
       window.location.href = "#";
     },
-    sgnUp () {
+    sngUp () {
       window.location.href = "#";
     }
   },
@@ -131,6 +131,7 @@ nav {
 .navbar-item img {
   max-height: 2.6rem;
 }
+
 
 img {
   width: 183px;
@@ -196,7 +197,7 @@ a {
 
 .dropdown-content a:hover {
   background-color: #fafafa;
-  color: #f9a825;
+  color: $bunker-gold;
 }
 
 .dropdown:hover .dropdown-content {
@@ -204,7 +205,7 @@ a {
 }
 
 .dropdown:hover .dropbtn {
-  color: #f9a825;
+  color: $bunker-gold;
 }
 
 .login {
@@ -215,17 +216,28 @@ a {
   cursor: pointer;
 }
 
-
-#orange {
+.login-btn {
   border-radius: 8px;
   padding: 25px 32px 42px;
   margin: 5%;
-  background-color: rgb(249, 168, 37);
-  border-color: rgb(249, 168, 37);
+  background-color: $bunker-blue;
+  border-color: $bunker-blue;
+  color: white;
+}
+.login-btn:hover {
+  background-color: blue;
+}
+
+.register-btn {
+  border-radius: 8px;
+  padding: 25px 32px 42px;
+  margin: 5%;
+  background-color: $bunker-gold;
+  border-color: $bunker-gold;
   color: white;
 }
 
-#orange:hover {
+.register-btn:hover {
   background-color: #ff8c00 !important;
 }
 
@@ -235,7 +247,7 @@ a {
 }
 
 .sgnUpBtn {
-  color: #f9a825;
+  color: $bunker-gold;
   box-shadow: none;
   text-shadow: none;
   padding: 0rem 1rem;
@@ -286,16 +298,6 @@ h6 {
   display: block;
 }
 
-.is-info {
-  border-radius: 8px;
-  padding: 25px 32px 42px;
-  margin: 5%;
-}
-
-.is-info a {
-  color: white;
-  text-decoration: none;
-}
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -324,11 +326,16 @@ h6 {
   }
 
   .navbar-burger span {
-    color: gold;
+    color: $bunker-gold;
     padding: 1px;
   }
 
+  a {
+  
+  }
+
   h1 {
+    margin-top: 10px;
     width: 100%;
   }
 
@@ -340,11 +347,11 @@ h6 {
   }
 
   .dropbtn {
-    color: gold;
+    color: $bunker-gold;
   }
 
   .sgnUpBtn {
-    color: gold !important;
+    color: $bunker-gold !important;
   }
 
   .navbar-item a {

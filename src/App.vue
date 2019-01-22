@@ -93,6 +93,10 @@ h5 {
 h6 {
   font-size: 16px !important;
 }
+
+i {
+  padding: 1%;
+}
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
 .btn-to-top {
