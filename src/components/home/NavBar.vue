@@ -46,7 +46,7 @@
                 <i class="fas fa-lock"></i>
                 LOGIN
               </a>
-              <button class="button sgnUpBtn" @click="sngUp" >SIGN UP</button>
+              <button class="button sgnUpBtn" @click="sngUp">SIGN UP</button>
             </div>
           </div>
         </div>
@@ -64,12 +64,18 @@
           <i class="fas fa-lock"></i>
           LOGIN
         </button>
-        <button  type="button" class="button register-btn"
-        @click="goToRegister">
-            <i class="fas fa-user-plus"></i>
-            REGISTER
+        <button type="button" class="button register-btn" @click="goToRegister">
+          <i class="fas fa-user-plus"></i>
+          REGISTER
         </button>
       </div>
+      <iframe
+        src="http://g1.ipcamlive.com/player/player.php?alias=5bfc29ae924e0"
+        width="800px"
+        height="450px"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
     </div>
   </div>
 </template>
@@ -89,10 +95,10 @@ export default {
     goToLogin() {
       window.location.href = "#";
     },
-     goToRegister() {
+    goToRegister() {
       window.location.href = "#";
     },
-    sngUp () {
+    sngUp() {
       window.location.href = "#";
     }
   },
@@ -131,7 +137,6 @@ nav {
 .navbar-item img {
   max-height: 2.6rem;
 }
-
 
 img {
   width: 183px;
@@ -269,7 +274,7 @@ h1 {
   font-size: 3.25rem;
   color: rgb(255, 255, 255);
   padding-top: 80px;
-  text-align: center
+  text-align: center;
 }
 
 p {
@@ -331,7 +336,6 @@ h6 {
   }
 
   a {
-  
   }
 
   h1 {

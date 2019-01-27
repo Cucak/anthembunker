@@ -10,7 +10,6 @@
   "dependencies": {
     "buefy": "^0.7.2",
     "bulma": "^0.7.2",
-    "hls.js": "^0.11.0",
     "vue": "^2.5.22",
     "vue-backtotop": "^1.6.1",
     "vue-carousel": "^0.16.2",
