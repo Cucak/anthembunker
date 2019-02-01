@@ -230,7 +230,7 @@ a {
   color: white;
 }
 .login-btn:hover {
-  background-color: blue;
+  background-color: #ff8c00;
 }
 
 .register-btn {
@@ -360,6 +360,10 @@ h6 {
 
   .navbar-item a {
     color: white;
+  }
+  iframe {
+    width: 300px;
+    height: 150px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
